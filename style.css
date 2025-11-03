@@ -1,1 +1,34 @@
+body {
+  background: linear-gradient(135deg, #181818, #242424);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+#countdown div {
+  background: #333;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+#countdown span {
+  font-size: 2.5rem;
+  display: block;
+}
 
